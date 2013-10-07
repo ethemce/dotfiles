@@ -11,6 +11,8 @@ alias dserve='python manage.py runserver 0.0.0.0:9999 '
 alias dmigratelist='python manage.py migrate --list'
 alias dmigrate='python manage.py migrate '
 alias dschema='python manage.py schemamigration '
+alias dmm='python manage.py makemessages -a'
+alias dcm='python manage.py compilemessages'
 #Common
 alias ip='curl ifconfig.me'
 if [ -f ~/.bash_profile ]; then
@@ -21,6 +23,6 @@ if [ -f ~/.bashrc ]; then
 fi
 alias vi='vim'
 alias www='cd ~/.virtualenvs/www/; ll;'
-
+alias mkdir='mkdir -p'
 
 
