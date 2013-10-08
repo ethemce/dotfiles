@@ -3,7 +3,6 @@
 # Python specific
 alias ipy='ipython'
 alias py='python'
-alias py2.6='python2.6'
 alias webdir='python -m SimpleHTTPServer'
 # Django specific
 alias dshell='python manage.py shell'
@@ -24,5 +23,5 @@ fi
 alias vi='vim'
 alias www='cd ~/.virtualenvs/www/; ll;'
 alias mkdir='mkdir -p'
-
-
+alias site='cd ~/.virtualenvs/django151/lib/python2.7/site-packages/'
+alias pm='python manage.py'
