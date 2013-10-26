@@ -117,7 +117,7 @@ export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExGxFxDxCxHxHxCbCeEbEb
 export LC_CTYPE=en_US.utf-8
-export PATH=~/bin:/usr/local/bin:/home/mn/Labs/go/bin:$PATH
+#export PATH=~/bin:/usr/local/bin:$PATH
 export IGNOREEOF=1
 export PYTHONDONTWRITEBYTECODE=1
 export LESS=FRSX
@@ -142,3 +142,7 @@ _pip_completion()
 }
 complete -o default -F _pip_completion pip
 # pip bash completion end
+
+
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:~/android/sdk/tools:${PATH}"
+export PATH
