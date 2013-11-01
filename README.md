@@ -12,6 +12,13 @@ Symlinks:
 	ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
 
 
+VCPrompt:
+
+	mkdir -p ~/bin
+	curl -sL https://github.com/djl/vcprompt/raw/master/bash_aliasesin/vcprompt > ~/bin/vcprompt
+	chmod 755 ~/bin/vcprompt
+	
+
 Git submodule update
 
 	cd ~/dotfiles/
