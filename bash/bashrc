@@ -114,7 +114,7 @@ masus_virtualenv() {
 }
 
 export MASUS_BASEPROMPT='\n\e${MASUS_USER_COLOR}\u \
-\e${MASUS_GRAY_COLOR}at \e${MASUS_ORANGE_COLOR}\H \
+\e${MASUS_GRAY_COLOR}at \e${MASUS_ORANGE_COLOR}$(hostname -f) \
 \e${MASUS_GRAY_COLOR}in \e${MASUS_GREEN_COLOR}\w\
 `masus_lastcommandfailed`\
 \e${MASUS_GRAY_COLOR}`masus_vcprompt`\
