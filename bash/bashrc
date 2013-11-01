@@ -114,7 +114,7 @@ masus_virtualenv() {
 }
 
 export MASUS_BASEPROMPT='\n\e${MASUS_USER_COLOR}\u \
-\e${MASUS_GRAY_COLOR}at \e${MASUS_ORANGE_COLOR}\h \
+\e${MASUS_GRAY_COLOR}at \e${MASUS_ORANGE_COLOR}\H \
 \e${MASUS_GRAY_COLOR}in \e${MASUS_GREEN_COLOR}\w\
 `masus_lastcommandfailed`\
 \e${MASUS_GRAY_COLOR}`masus_vcprompt`\
@@ -129,7 +129,6 @@ export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExGxFxDxCxHxHxCbCeEbEb
 export LC_CTYPE=en_US.utf-8
-export PATH=~/bin:/usr/local/bin:/home/mn/Labs/go/bin:$PATH
 export IGNOREEOF=1
 export PYTHONDONTWRITEBYTECODE=1
 export LESS=FRSX
