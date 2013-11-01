@@ -23,7 +23,7 @@ set t_Co=256
 let no_buffers_menu=1
 
 " Enable mouse everywhere
-set mouse=a
+"set mouse=a
 
 " Hide mouse pointer while typing
 set mousehide
