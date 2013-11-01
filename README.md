@@ -19,6 +19,11 @@ VCPrompt:
 	chmod 755 ~/bin/vcprompt
 	
 
+exuberant-ctags:
+
+	sudo aptitude install exuberant-ctags
+	
+
 Git submodule update
 
 	cd ~/dotfiles/
