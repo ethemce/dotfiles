@@ -16,6 +16,7 @@ VCPrompt:
 
 	mkdir -p ~/bin
 	curl -sL https://github.com/djl/vcprompt/raw/master/bash_aliasesin/vcprompt > ~/bin/vcprompt
+	curl -sL https://raw.github.com/djl/vcprompt/master/bin/vcprompt > ~/bin/vcprompt
 	chmod 755 ~/bin/vcprompt
 	
 
