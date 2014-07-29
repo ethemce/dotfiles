@@ -110,13 +110,15 @@ export MASUS_BASEPROMPT='\n\e${MASUS_USER_COLOR}\u \
 `masus_virtualenv`\
 \e${MASUS_DEFAULT_COLOR}'
 export PS1="\[\033[G\]${MASUS_BASEPROMPT}
-$ "
+: "
 
 export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExGxFxDxCxHxHxCbCeEbEb
-export LC_CTYPE=en_US.utf-8
+export LC_CTYPE=tr_TR.utf-8
+export LC_ALL=tr_TR.UTF-8  
+export LANG=tr_TR.UTF-8
 export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:~/android/sdk/tools:~/android/sdk/platform-tools:$PATH
 export IGNOREEOF=1
 export PYTHONDONTWRITEBYTECODE=1
@@ -142,3 +144,23 @@ _pip_completion()
 }
 complete -o default -F _pip_completion pip
 # pip bash completion end
+
+##
+# Your previous /Users/masus/.bash_profile file was backed up as /Users/masus/.bash_profile.macports-saved_2013-12-07_at_17:49:08
+##
+
+# MacPorts Installer addition on 2013-12-07_at_17:49:08: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+workon django155
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH

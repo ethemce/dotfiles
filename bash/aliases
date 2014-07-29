@@ -13,7 +13,7 @@ alias dschema='python manage.py schemamigration '
 alias dmm='python manage.py makemessages -a'
 alias dcm='python manage.py compilemessages'
 #Common
-alias ip='curl http://api.externalip.net/ip/'
+alias ip_external='curl http://api.externalip.net/ip/'
 if [ -f ~/.bash_profile ]; then
 	alias reload='source ~/.bash_profile'
 fi

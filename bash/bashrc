@@ -122,13 +122,15 @@ export MASUS_BASEPROMPT='\n\e${MASUS_USER_COLOR}\u \
 `masus_virtualenv`\
 \e${MASUS_DEFAULT_COLOR}'
 export PS1="\[\033[G\]${MASUS_BASEPROMPT}
-$ "
+: "
 
 export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExGxFxDxCxHxHxCbCeEbEb
-export LC_CTYPE=en_US.utf-8
+export LC_CTYPE=tr_TR.utf-8
+export LC_ALL=tr_TR.UTF-8  
+export LANG=tr_TR.UTF-8
 export IGNOREEOF=1
 export PYTHONDONTWRITEBYTECODE=1
 export LESS=FRSX
