@@ -128,9 +128,9 @@ export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExGxFxDxCxHxHxCbCeEbEb
-export LC_CTYPE=tr_TR.utf-8
-export LC_ALL=tr_TR.UTF-8  
-export LANG=tr_TR.UTF-8
+#export LC_CTYPE=tr_TR.utf-8
+#export LC_ALL=tr_TR.UTF-8  
+#export LANG=tr_TR.UTF-8
 export IGNOREEOF=1
 export PYTHONDONTWRITEBYTECODE=1
 export LESS=FRSX
