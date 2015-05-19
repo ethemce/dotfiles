@@ -11,7 +11,7 @@ VCPrompt:
 	chmod 755 ~/bin/vcprompt
 
 Git submodule update
-	git clone https://github.com/kodbank/dotfiles ~/dotfiles
+	git clone https://github.com/kodbank/dotfiles ~/dotfiles;
 	cd ~/dotfiles/
 	git submodule update --init
 
