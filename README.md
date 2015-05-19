@@ -1,33 +1,30 @@
 Installation:
-	
-	git clone https://github.com/kodbank/dotfiles ~/dotfiles
 
-Symlinks:
+Aptitude:
 
-	ln -s ~/dotfiles/vim/ ~/.vim
-	ln -s ~/dotfiles/vim/vimrc ~/.vimrc
-	
-	ln -s ~/dotfiles/bash/bashrc ~/.bashrc
-	ln -s ~/dotfiles/bash/profile ~/.bash_profile  #mac
-	ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
-
+	sudo aptitude install exuberant-ctags curl git sudo
 
 VCPrompt:
 
 	mkdir -p ~/bin
 	curl -sL https://raw.github.com/djl/vcprompt/master/bin/vcprompt > ~/bin/vcprompt
 	chmod 755 ~/bin/vcprompt
-	
-
-exuberant-ctags:
-
-	sudo aptitude install exuberant-ctags
-	
 
 Git submodule update
-
+	git clone https://github.com/kodbank/dotfiles ~/dotfiles
 	cd ~/dotfiles/
 	git submodule update --init
+
+
+Symlinks:
+	
+	ln -s ~/dotfiles/vim/ ~/.vim
+	ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+	
+	rm ~/.bashrc; ln -s ~/dotfiles/bash/bashrc ~/.bashrc
+	ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
+	ln -s ~/dotfiles/bash/profile ~/.bash_profile  #mac
+	
 
 Django tab-completion feature:
 
