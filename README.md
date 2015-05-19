@@ -4,14 +4,17 @@ Aptitude:
 
 	sudo aptitude install exuberant-ctags curl git sudo
 
+
 VCPrompt:
 
 	mkdir -p ~/bin
 	curl -sL https://raw.github.com/djl/vcprompt/master/bin/vcprompt > ~/bin/vcprompt
 	chmod 755 ~/bin/vcprompt
 
+
 Git submodule update
-	git clone https://github.com/kodbank/dotfiles ~/dotfiles;
+
+	git clone https://github.com/kodbank/dotfiles ~/dotfiles
 	cd ~/dotfiles/
 	git submodule update --init
 
